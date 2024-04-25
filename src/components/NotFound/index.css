@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.not-found-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+}
+.not-found-text {
+  font-size: 40px;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .not-found-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  }
+  .not-found-text {
+    font-size: 20px;
+  }
+}

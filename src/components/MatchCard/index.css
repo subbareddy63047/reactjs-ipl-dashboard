@@ -1,0 +1,83 @@
+/* Write your CSS here */
+
+.first {
+  background-color: #1e293b;
+}
+.second {
+  background-color: #a4261d;
+}
+.third {
+  background-color: #5755a7;
+}
+.fourth {
+  background-color: #d91c1f;
+}
+.five {
+  background-color: #f7db00;
+}
+.six {
+  background-color: #da237b;
+}
+.seven {
+  background-color: #13418b;
+}
+.eight {
+  background-color: #f26d22;
+}
+.nine {
+  background-color: #4f5db0;
+}
+.ten {
+  background-color: #0f172a;
+}
+.loader {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-card-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.match-card-inner-container {
+  width: 98vw;
+  height: 93vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.each-match-card-banner-container {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 10px;
+}
+.each-match-card-banner-container img {
+  width: 100%;
+  height: 100%;
+}
+.latest-text {
+  font-size: 13px;
+  color: #fff;
+}
+.latest-matches-container {
+  width: 100%;
+  height: 30%;
+}
+.composite-teams-container {
+  width: 100%;
+  height: 40%;
+  margin-top: 10px;
+  overflow: auto;
+}
+.composite-teams-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}

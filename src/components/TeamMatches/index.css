@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.card {
+  width: 18%;
+  height: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #000;
+  list-style-type: none;
+  margin: 0px 10px 10px 0px;
+  border-radius: 10px;
+}
+.card-log {
+  width: 30px;
+  height: 30px;
+}
+.card p {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+#results {
+  font-size: 8px;
+}
+#won {
+  color: green;
+}
+#lost {
+  color: red;
+}
+
+@media screen and (max-width: 400px) {
+  .card p {
+    font-size: 8px;
+  }
+}
